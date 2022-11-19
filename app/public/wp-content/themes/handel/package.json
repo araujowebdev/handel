@@ -1,0 +1,12 @@
+{
+  "name": "handel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "browser-sync start --proxy \"handel.test\" --files \"**/*\" --no-inject-changes"
+  },
+  "author": "",
+  "license": "ISC"
+}
