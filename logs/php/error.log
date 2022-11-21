@@ -1,0 +1,159 @@
+[19-Nov-2022 23:35:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+[19-Nov-2022 23:35:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+[19-Nov-2022 23:35:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+[19-Nov-2022 23:35:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_title" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+[21-Nov-2022 18:10:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 9
+[21-Nov-2022 18:10:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "wp_head" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php:8
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(1): get_header()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 8
+[21-Nov-2022 18:11:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "wp_footer" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php:1
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(5): get_footer()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php on line 1
+[21-Nov-2022 18:11:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_foot() in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php:1
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(5): get_footer()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php on line 1
+[21-Nov-2022 18:11:34 UTC] PHP Parse error:  Unmatched ')' in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php on line 1
+[21-Nov-2022 18:11:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "wp_foot" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php:1
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(5): get_footer()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php on line 1
+[21-Nov-2022 18:11:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "wp_foot" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php:1
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(5): get_footer()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/footer.php on line 1
+[21-Nov-2022 18:13:45 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 7
+[21-Nov-2022 18:14:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 7
+[21-Nov-2022 18:14:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "blog" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php:7
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(1): get_header()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 7
+[21-Nov-2022 18:14:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php:7
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(783): require_once()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template.php(718): load_template('/home/raphael/D...', true, Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php(1): get_header()
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#6 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#7 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 7
+[21-Nov-2022 18:15:55 UTC] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/header.php on line 10
+[21-Nov-2022 18:17:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:17:55 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:17:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_post" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "have_post" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:13 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:16 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:19 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:22 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:30 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 2
+[21-Nov-2022 18:18:42 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 3
+[21-Nov-2022 18:18:51 UTC] PHP Parse error:  syntax error, unexpected token "?" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 3
+[21-Nov-2022 18:19:25 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 3
+[21-Nov-2022 18:19:27 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 3
+[21-Nov-2022 18:21:15 UTC] PHP Parse error:  syntax error, unexpected token "?" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 4
+[21-Nov-2022 18:21:16 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 4
+[21-Nov-2022 18:21:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_content" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:4
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 4
