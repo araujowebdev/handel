@@ -157,3 +157,10 @@ Stack trace:
 #2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
 #3 {main}
   thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 4
+[21-Nov-2022 18:29:52 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:29:55 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:30:05 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:30:13 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:30:34 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:30:46 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[21-Nov-2022 18:30:55 UTC] PHP Warning:  Undefined array key 3 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
