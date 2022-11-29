@@ -366,3 +366,259 @@ Stack trace:
 #3 {main}
   thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 56
 
+2022-11-29T14:18:32+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 12
+
+2022-11-29T14:18:33+00:00 CRITICAL syntax error, unexpected token ")", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:18:37+00:00 CRITICAL syntax error, unexpected token ")", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:18:38+00:00 CRITICAL syntax error, unexpected token ")", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:18:43+00:00 CRITICAL syntax error, unexpected token ")", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:18:47+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:18:48+00:00 CRITICAL syntax error, unexpected token ")", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:19:55+00:00 CRITICAL syntax error, unexpected variable "$i", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 12
+
+2022-11-29T14:20:05+00:00 CRITICAL syntax error, unexpected variable "$i", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 12
+
+2022-11-29T14:21:53+00:00 CRITICAL syntax error, unexpected token "]" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 19
+
+2022-11-29T14:22:05+00:00 CRITICAL syntax error, unexpected token "=>", expecting "]" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 21
+
+2022-11-29T14:22:25+00:00 CRITICAL Uncaught Error: Undefined constant "foreac" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:26
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 26
+
+2022-11-29T14:22:27+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 27
+
+2022-11-29T14:22:31+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 26
+
+2022-11-29T14:22:32+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 26
+
+2022-11-29T14:22:35+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 26
+
+2022-11-29T14:22:43+00:00 CRITICAL syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:45+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:47+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:50+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:52+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:53+00:00 CRITICAL syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:22:57+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:23:03+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:23:05+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:23:56+00:00 CRITICAL Cannot use [] for reading in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 27
+
+2022-11-29T14:25:14+00:00 CRITICAL syntax error, unexpected identifier "nome", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 28
+
+2022-11-29T14:26:39+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 35
+
+2022-11-29T14:26:43+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:26:47+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:26:48+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:26:50+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:26:53+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:26:56+00:00 CRITICAL Unclosed '{' on line 31 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 37
+
+2022-11-29T14:27:25+00:00 CRITICAL syntax error, unexpected token "/" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 32
+
+2022-11-29T14:27:27+00:00 CRITICAL syntax error, unexpected variable "$produto" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 32
+
+2022-11-29T14:27:29+00:00 CRITICAL syntax error, unexpected token "/" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 32
+
+2022-11-29T14:27:31+00:00 CRITICAL syntax error, unexpected token "/" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 32
+
+2022-11-29T14:27:36+00:00 CRITICAL syntax error, unexpected token "/" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 32
+
+2022-11-29T14:27:55+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:27:58+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:00+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:04+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:06+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:11+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:18+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:28:21+00:00 CRITICAL syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 33
+
+2022-11-29T14:30:16+00:00 CRITICAL Unmatched '}' in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 38
+
+2022-11-29T14:30:20+00:00 CRITICAL syntax error, unexpected end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:33:57+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 42
+
+2022-11-29T14:33:59+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 42
+
+2022-11-29T14:34:06+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:10+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:12+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:13+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:15+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:19+00:00 CRITICAL syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:34+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:47+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:48+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:50+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:54+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:34:57+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:00+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:02+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:04+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:06+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:09+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:10+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:12+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:16+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:20+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:26+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:28+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:30+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:35+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:38+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:39+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:41+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:43+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:44+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:47+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:56+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:35:59+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:03+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:05+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:06+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:13+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:14+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:17+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:20+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:22+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:36:25+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 41
+
+2022-11-29T14:37:17+00:00 CRITICAL syntax error, unexpected token "as", expecting "->" or "?->" or "{" or "[" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 42
+
+2022-11-29T14:38:12+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 48
+
+2022-11-29T14:38:40+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 50
+
+2022-11-29T14:38:42+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 50
+
+2022-11-29T14:38:44+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 49
+
+2022-11-29T14:38:50+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 51
+
+2022-11-29T14:38:53+00:00 CRITICAL Maximum execution time of 1200 seconds exceeded in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 11
+
+2022-11-29T14:40:07+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 55
+
+2022-11-29T14:40:09+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 55
+
+2022-11-29T14:40:10+00:00 CRITICAL Uncaught Error: Undefined constant "php" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:54
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 54
+
+2022-11-29T14:40:19+00:00 CRITICAL syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 58
+
+2022-11-29T14:40:23+00:00 CRITICAL syntax error, unexpected token ")", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 57
+
+2022-11-29T14:40:25+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 57
+
+2022-11-29T14:40:42+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 59
+
+2022-11-29T14:40:43+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 59
+
+2022-11-29T14:41:25+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 63
+
+2022-11-29T14:44:17+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 73
+
+2022-11-29T14:44:19+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 73
+
+2022-11-29T14:44:26+00:00 CRITICAL Uncaught Error: Undefined constant "preco" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:73
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 73
+
+2022-11-29T14:44:36+00:00 CRITICAL syntax error, unexpected token ";", expecting variable or "{" or "$" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:44:46+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:44:52+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:44:57+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:44:59+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:45:07+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 76
+
+2022-11-29T14:45:20+00:00 CRITICAL syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 78
+

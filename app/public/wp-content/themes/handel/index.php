@@ -8,55 +8,74 @@
 </head>
 <body>
 <?php
-$nome = "Raphael";
-  echo get_the_title() . " " . $nome;
-?>
-<h1><?php echo $nome; ?></h1>
-<h1><?= $nome; ?></h1>
+  // for($i = 0; $i <= 20; $i++) {
+  //   echo "\n" . $i;
+  // };
+
+  $produtos = [
+    [
+      'nome' => 'Camiseta Branca',
+      'preco' => 'R$ 59'
+    ],
+    [
+      'nome' => 'Bermuda Preta',
+      'preco' => 'R$ 79'
+    ]
+  ];
+
+  // foreach($produtos as $produto) {
+  //   echo '<h2>' . $produto['nome'] . '</h2>';
+  //   echo '<p>' . $produto['preco'] . '</p>';
+  // }
+  ?>
+    <!-- <?php foreach($produtos as $produto) : ?>
+      <h2> <?= $produto['nome']; ?></h2>
+      <p> <?= $produto['preco']; ?></p>
+    <?php endforeach; ?> -->
+  
+    <!-- <?php foreach($produtos as $produto) { ?>
+    <h2> <?= $produto['nome']; ?></h2>
+    <p> <?= $produto['preco']; ?></p>
+  <?php } ?> -->
+
+  <?php foreach($produtos as $key => $produto) { ?>
+    <?php foreach($produto as $key => $value) { ?>
+      <h1><?= $key . ' ' . $value; ?></h1>
+    <?php } ?>
+  <?php } ?>
+
+  <?php
+    $vitalicio = true;
+    if($vitalicio) {
+      echo 'Liberar';
+    }
+  ?>
+
+<br><br>
 
 <?php
-  $produtos = ['Camisetas', 'Bermudas', 'Casacos'];
-  echo $produtos[1];
-  print_r($produtos);
-  var_dump($produtos);
-  ?>
-  <pre>
-    <?= print_r($produtos) ?>
-    <?= var_dump($produtos) ?>
-  </pre>
-  <?php
-    $produto = [
-      'nome' => 'Camiseta Branca',
-      'preco' => 'R$ 59',
-      'img' => [
-        'src' => './img/camiseta_branca.jpg',
-        'alt' => 'Camiseta Branca',
-        ]
-      ];
-      var_dump($produto);
-  ?>
-  <h2><?= $produto['nome'] ?></h2>
-  <p><?= $produto['preco'] ?></p>
-  <img src="<?= $produto['img']['src'] ?>;" alt="<?= $produto['img']['alt'] ?>">
+  $categorias;
+  
+  if(empty($categorias)) {
+    echo 'Está vazio!';
+  }
+?>
+<br><br>
+<?php
+  $categorias = ['Bermuda'];
+  
+  if(!empty($categorias)) {
+    echo 'Não está vazio!';
+  }
+?>
 
-  <br>
+  <br><br>
   <?php
-    $categorias = ['Camisetas'];
-    var_dump($categorias);
-  ?>
-  <br>
-  <?php
-  unset($produto);
-  $categorias[] = 'Bermudas';
-  var_dump($categorias);
-  $produto['estoque'] = '10 itens';
-  var_dump($produto);
-  echo count($produto);
-  ?>
-  <br>
-  <?php
-  $produtos_chaves = array_keys($produtos);
-  print_r($produtos_chaves);
+    $preco = 150;
+
+    $mensagem = $preco > 100 ? 'Caro' : 'Barato';
+
+    echo $mensagem;
   ?>
 </body>
 </html>
