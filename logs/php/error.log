@@ -1162,3 +1162,24 @@ Stack trace:
 #5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
 #6 {main}
   thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 441
+[30-Nov-2022 13:14:34 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 15
+[30-Nov-2022 13:14:36 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 15
+[30-Nov-2022 13:14:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php:16
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#5 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 16
+[30-Nov-2022 13:14:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 16 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:121
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(16): add_filter('woocommerce')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 121
