@@ -1,1 +1,2 @@
 2022/11/29 11:38:50 [error] 25995#0: *6122 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://unix:/home/raphael/.config/Local/run/3T1iG57MB/php/php-fpm.socket", host: "handel.test"
+2022/11/30 09:37:53 [error] 117513#0: *1078 upstream timed out (110: Connection timed out) while reading upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://unix:/home/raphael/.config/Local/run/3T1iG57MB/php/php-fpm.socket:", host: "handel.test"

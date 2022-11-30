@@ -908,3 +908,257 @@ Stack trace:
 #2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
 #3 {main}
   thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php on line 5
+[30-Nov-2022 12:30:39 UTC] PHP Parse error:  syntax error, unexpected token "?" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 10
+[30-Nov-2022 12:30:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "do_action" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php:10
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 10
+[30-Nov-2022 12:30:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "do_action" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php:10
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 10
+[30-Nov-2022 12:31:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "add_action" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#5 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 2
+[30-Nov-2022 12:31:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "add_action" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php:2
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#5 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 2
+[30-Nov-2022 12:31:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 2 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(2): add_action('dentro')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 441
+[30-Nov-2022 12:34:25 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 13
+[30-Nov-2022 12:34:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "apply_filters" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php:12
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12
+[30-Nov-2022 12:34:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 0 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12 and exactly 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:173
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(12): apply_filters()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 173
+[30-Nov-2022 12:34:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12 and exactly 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:173
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(12): apply_filters('')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 173
+[30-Nov-2022 12:34:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12 and exactly 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:173
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(12): apply_filters('titulo')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 173
+[30-Nov-2022 12:34:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12 and exactly 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:173
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(12): apply_filters('tituloHome')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#4 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 173
+[30-Nov-2022 12:36:01 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "dentro_da_home", expecting variable in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 4
+[30-Nov-2022 12:36:10 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 4
+[30-Nov-2022 12:36:12 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "{" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 4
+[30-Nov-2022 12:36:18 UTC] PHP Parse error:  Unclosed '{' on line 2 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:37:56 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-query.php on line 3627
+[30-Nov-2022 12:37:56 UTC] PHP Stack trace:
+[30-Nov-2022 12:37:56 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[30-Nov-2022 12:37:56 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[30-Nov-2022 12:37:56 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[30-Nov-2022 12:37:56 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[30-Nov-2022 12:37:56 UTC] PHP   5. have_posts() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/index.php:3
+[30-Nov-2022 12:37:56 UTC] PHP   6. WP_Query->have_posts() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/query.php:947
+[30-Nov-2022 12:38:07 UTC] PHP Parse error:  syntax error, unexpected identifier "add_" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:09 UTC] PHP Parse error:  syntax error, unexpected identifier "add_fiter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:10 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:15 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:16 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:16 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[30-Nov-2022 12:38:16 UTC] PHP Stack trace:
+[30-Nov-2022 12:38:16 UTC] PHP   1. WP_Fatal_Error_Handler->handle() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[30-Nov-2022 12:38:16 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12]) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-fatal-error-handler.php:53
+[30-Nov-2022 12:38:16 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode.php:185
+[30-Nov-2022 12:38:16 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:62
+[30-Nov-2022 12:38:16 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:155
+[30-Nov-2022 12:38:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[30-Nov-2022 12:38:16 UTC] PHP Stack trace:
+[30-Nov-2022 12:38:16 UTC] PHP   1. WP_Fatal_Error_Handler->handle() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[30-Nov-2022 12:38:16 UTC] PHP   2. WP_Recovery_Mode->handle_error($error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12]) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-fatal-error-handler.php:53
+[30-Nov-2022 12:38:16 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode.php:185
+[30-Nov-2022 12:38:16 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected identifier "add_filter"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 12], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:62
+[30-Nov-2022 12:38:16 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:155
+[30-Nov-2022 12:38:19 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:24 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:29 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:33 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:34 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:38:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mudar_titulo" not found or invalid function name in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('Essa \xC3\xA9 a homee...', Array)
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(12): apply_filters('titulo_home', 'Essa \xC3\xA9 a homee...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#5 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php on line 308
+[30-Nov-2022 12:40:27 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "titulo_home", expecting variable in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 14
+[30-Nov-2022 12:40:29 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 14
+[30-Nov-2022 12:40:34 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 14
+[30-Nov-2022 12:40:39 UTC] PHP Parse error:  syntax error, unexpected identifier "add_filter", expecting "{" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 14
+[30-Nov-2022 12:40:46 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 14
+[30-Nov-2022 12:41:15 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:18 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:20 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:23 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:27 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:28 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:30 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:32 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:37 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:41 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:41:50 UTC] PHP Parse error:  syntax error, unexpected variable "$titulo", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 13
+[30-Nov-2022 12:43:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "add_filter" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php:18
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#5 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 18
+[30-Nov-2022 12:43:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 18 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:121
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(18): add_filter('')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 121
+[30-Nov-2022 12:49:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(8): add_action('dentro_da_home')
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 441
+[30-Nov-2022 12:49:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "executar_na_home_2" not found or invalid function name in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(10): do_action('dentro_da_home')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php on line 308
+[30-Nov-2022 12:49:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "executar_na_home_2" not found or invalid function name in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(10): do_action('dentro_da_home')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php on line 308
+[30-Nov-2022 12:49:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "executar_na_home_2" not found or invalid function name in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php(10): do_action('dentro_da_home')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php on line 308
+[30-Nov-2022 12:49:54 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:50:05 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 12
+[30-Nov-2022 12:51:09 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:51:13 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:51:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:51:22 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:51:24 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:51:28 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 5
+[30-Nov-2022 12:52:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 6 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(6): add_action()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 441
+[30-Nov-2022 12:55:21 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:55:23 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting "(" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:55:30 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:37 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:38 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:43 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:46 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:51 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:55 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:56 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:55:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:56:00 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 9
+[30-Nov-2022 12:56:27 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:57:20 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:57:33 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:57:34 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:57:36 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 8
+[30-Nov-2022 12:58:35 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 10
+[30-Nov-2022 12:58:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 10
+[30-Nov-2022 12:58:41 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 10
+[30-Nov-2022 12:58:47 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 10
+[30-Nov-2022 12:58:49 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 10
+[30-Nov-2022 12:59:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php on line 11 and at least 2 expected in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php(11): add_action()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-settings.php(585): include('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-config.php(91): require_once('/home/raphael/D...')
+#3 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-load.php(50): require_once('/home/raphael/D...')
+#4 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(13): require_once('/home/raphael/D...')
+#5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#6 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 441
