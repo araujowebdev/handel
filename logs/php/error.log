@@ -1183,3 +1183,11 @@ Stack trace:
 #5 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
 #6 {main}
   thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php on line 121
+[30-Nov-2022 13:30:13 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 12
+[30-Nov-2022 13:30:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "print_r" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php:11
+Stack trace:
+#0 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php(19): require_once('/home/raphael/D...')
+#2 /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php(17): require('/home/raphael/D...')
+#3 {main}
+  thrown in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 11
