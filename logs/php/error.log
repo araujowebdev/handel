@@ -1225,3 +1225,15 @@ Stack trace:
 [02-Dec-2022 12:48:22 UTC] PHP   3. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected token "<"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 25], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode.php:185
 [02-Dec-2022 12:48:22 UTC] PHP   4. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 4, 'message' => 'syntax error, unexpected token "<"', 'file' => '/home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/functions.php', 'line' => 25], $extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:62
 [02-Dec-2022 12:48:22 UTC] PHP   5. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'handel']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-recovery-mode-email-service.php:155
+[03-Dec-2022 21:54:31 UTC] PHP Warning:  Undefined variable $categorias_esquerda in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 60
+[03-Dec-2022 21:54:31 UTC] PHP Stack trace:
+[03-Dec-2022 21:54:31 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[03-Dec-2022 21:54:31 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[03-Dec-2022 21:54:31 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[03-Dec-2022 21:54:31 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[03-Dec-2022 21:54:31 UTC] PHP Warning:  Undefined variable $categorias_direita in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/page-home.php on line 61
+[03-Dec-2022 21:54:31 UTC] PHP Stack trace:
+[03-Dec-2022 21:54:31 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[03-Dec-2022 21:54:31 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[03-Dec-2022 21:54:31 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[03-Dec-2022 21:54:31 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
