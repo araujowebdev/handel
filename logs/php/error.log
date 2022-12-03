@@ -1237,3 +1237,10 @@ Stack trace:
 [03-Dec-2022 21:54:31 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
 [03-Dec-2022 21:54:31 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
 [03-Dec-2022 21:54:31 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[03-Dec-2022 22:06:39 UTC] PHP Warning:  Attempt to read property "title" on null in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[03-Dec-2022 22:06:39 UTC] PHP Stack trace:
+[03-Dec-2022 22:06:39 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-admin/customize.php:0
+[03-Dec-2022 22:06:39 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-admin/customize.php:292
+[03-Dec-2022 22:06:39 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:517
+[03-Dec-2022 22:06:39 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:332
+[03-Dec-2022 22:06:39 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
