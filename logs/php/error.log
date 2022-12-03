@@ -1244,3 +1244,27 @@ Stack trace:
 [03-Dec-2022 22:06:39 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:517
 [03-Dec-2022 22:06:39 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:332
 [03-Dec-2022 22:06:39 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+[03-Dec-2022 22:53:42 UTC] PHP Warning:  Undefined array key 0 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 21
+[03-Dec-2022 22:53:42 UTC] PHP Stack trace:
+[03-Dec-2022 22:53:42 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[03-Dec-2022 22:53:42 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[03-Dec-2022 22:53:42 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[03-Dec-2022 22:53:42 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[03-Dec-2022 22:53:42 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[03-Dec-2022 22:53:42 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[03-Dec-2022 22:54:02 UTC] PHP Warning:  Undefined array key 0 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 21
+[03-Dec-2022 22:54:02 UTC] PHP Stack trace:
+[03-Dec-2022 22:54:02 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[03-Dec-2022 22:54:02 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[03-Dec-2022 22:54:02 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[03-Dec-2022 22:54:02 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[03-Dec-2022 22:54:02 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[03-Dec-2022 22:54:02 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[03-Dec-2022 22:54:08 UTC] PHP Warning:  Undefined array key 0 in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 21
+[03-Dec-2022 22:54:08 UTC] PHP Stack trace:
+[03-Dec-2022 22:54:08 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[03-Dec-2022 22:54:08 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[03-Dec-2022 22:54:08 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[03-Dec-2022 22:54:08 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[03-Dec-2022 22:54:08 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[03-Dec-2022 22:54:08 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
