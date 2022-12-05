@@ -66,4 +66,9 @@ function handel_product_list($products) { ?>
 } // Fecha a função handel
 
 add_filter('woocommerce_enable_order_notes_field', '__return_false');
+
+function meu_dashboard() {
+  echo 'Origamid';
+}
+add_action('woocommerce_account_dashboard', 'meu_dashboard');
 ?>
