@@ -64,4 +64,6 @@ function handel_product_list($products) { ?>
   </ul>
 <?php 
 } // Fecha a função handel
+
+add_filter('woocommerce_enable_order_notes_field', '__return_false');
 ?>
