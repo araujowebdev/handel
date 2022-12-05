@@ -1275,3 +1275,191 @@ Stack trace:
 [03-Dec-2022 22:57:55 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/plugin.php:517
 [03-Dec-2022 22:57:55 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:332
 [03-Dec-2022 22:57:55 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/class-wp-hook.php:308
+[05-Dec-2022 11:47:16 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 11:47:16 UTC] PHP Stack trace:
+[05-Dec-2022 11:47:16 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 11:47:16 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 11:47:16 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 11:47:16 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 11:47:16 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 11:47:16 UTC] PHP Stack trace:
+[05-Dec-2022 11:47:16 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 11:47:16 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 11:47:16 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 11:47:16 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 11:47:31 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 11:47:31 UTC] PHP Stack trace:
+[05-Dec-2022 11:47:31 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 11:47:31 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 11:47:31 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 11:47:31 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 11:47:31 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 11:47:31 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 11:47:31 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 11:47:31 UTC] PHP Stack trace:
+[05-Dec-2022 11:47:31 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 11:47:31 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 11:47:31 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 11:47:31 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 11:47:31 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 11:47:31 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:05:55 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:05:55 UTC] PHP Stack trace:
+[05-Dec-2022 12:05:55 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:05:55 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:05:55 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:05:55 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:05:55 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:05:55 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:05:55 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:05:55 UTC] PHP Stack trace:
+[05-Dec-2022 12:05:55 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:05:55 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:05:55 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:05:55 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:05:55 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:05:55 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:21:42 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:21:42 UTC] PHP Stack trace:
+[05-Dec-2022 12:21:42 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:21:42 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:21:42 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:21:42 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:21:42 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:21:42 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:21:42 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:21:42 UTC] PHP Stack trace:
+[05-Dec-2022 12:21:42 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:21:42 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:21:42 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:21:42 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:21:42 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:21:42 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:21:52 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:21:52 UTC] PHP Stack trace:
+[05-Dec-2022 12:21:52 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:21:52 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:21:52 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:21:52 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:21:52 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:21:52 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:21:52 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:21:52 UTC] PHP Stack trace:
+[05-Dec-2022 12:21:52 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:21:52 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:21:52 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:21:52 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:21:52 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:21:52 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:27 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:27 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:27 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:27 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:27 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:27 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:27 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:27 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:27 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:27 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:27 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:27 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:27 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:27 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:27 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:27 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:30 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:30 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:30 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:30 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:30 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:30 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:30 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:30 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:30 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:30 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:30 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:30 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:30 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:30 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:30 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:30 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:35 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:35 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:35 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:35 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:35 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:35 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:35 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:35 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:35 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:35 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:35 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:35 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:35 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:35 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:35 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:35 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:37 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:37 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:37 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:37 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:37 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:37 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:37 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:37 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:37 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:37 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:37 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:37 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:37 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:37 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:37 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:37 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:38 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:38 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:38 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:38 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:38 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:38 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:38 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:38 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:38 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:38 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:38 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:38 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:38 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:38 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:38 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:38 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:39 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:39 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:39 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:39 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:39 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:39 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:39 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:39 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:39 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:39 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:39 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:39 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:39 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:39 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:39 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:39 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:41 UTC] PHP Warning:  Undefined array key "min_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 44
+[05-Dec-2022 12:22:41 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:41 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:41 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:41 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:41 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:41 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:41 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
+[05-Dec-2022 12:22:41 UTC] PHP Warning:  Undefined array key "max_price" in /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/themes/handel/woocommerce/archive-product.php on line 48
+[05-Dec-2022 12:22:41 UTC] PHP Stack trace:
+[05-Dec-2022 12:22:41 UTC] PHP   1. {main}() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:0
+[05-Dec-2022 12:22:41 UTC] PHP   2. require() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/index.php:17
+[05-Dec-2022 12:22:41 UTC] PHP   3. require_once() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-blog-header.php:19
+[05-Dec-2022 12:22:41 UTC] PHP   4. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-includes/template-loader.php:106
+[05-Dec-2022 12:22:41 UTC] PHP   5. wc_get_template($template_name = 'archive-product.php', $args = *uninitialized*, $template_path = *uninitialized*, $default_path = *uninitialized*) /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/templates/taxonomy-product-cat.php:22
+[05-Dec-2022 12:22:41 UTC] PHP   6. include() /home/raphael/Documentos/GitHub/Projetos/10-WordPress/handel/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:345
