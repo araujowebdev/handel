@@ -1,5 +1,4 @@
 /* Lista de Produtos */
-
 .products-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -46,8 +45,7 @@
   width: 100%;
 }
 
-/* BREADCRUMB */
-
+/* Breadcrumb */
 .breadcrumb {
   margin: 20px auto;
   font-size: 0.875rem;
@@ -60,8 +58,7 @@
   border-bottom: 2px solid #000;
 }
 
-/* ARQUIVO */
-
+/* Arquivo */
 .products-archive {
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -74,7 +71,6 @@
 }
 
 /* Paginação */
-
 .pagination {
   margin-top: 40px;
 }
@@ -96,11 +92,14 @@
   color: #000;
 }
 
-/* FILTROS */
-
+/* Filtros */
 .filtro,
 .filtro .widget {
   margin-bottom: 40px;
+}
+
+.filtro .woocommerce a {
+  text-decoration: none;
 }
 
 .filtro-titulo,
@@ -199,8 +198,7 @@
   display: none;
 }
 
-/* ORDEM */
-
+/* Ordem */
 .woocommerce-ordering {
   margin-bottom: 20px;
   margin-left: auto;

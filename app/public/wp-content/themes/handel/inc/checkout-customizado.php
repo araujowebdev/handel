@@ -1,6 +1,6 @@
 <?php
   function handel_custom_checkout($fields) {
-    unset($fields['billing']['billing_phone']);
+    // unset($fields['billing']['billing_phone']);
 
     $fields['billing']['billing_presente'] = [
       'label' => 'Embrulhar para Presente?',
