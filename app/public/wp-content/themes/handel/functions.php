@@ -43,4 +43,5 @@ function meu_dashboard() {
 add_action('woocommerce_account_dashboard', 'meu_dashboard');
 
 include(get_template_directory() . '/inc/user-custom-menu.php');
+include(get_template_directory() . '/inc/checkout-customizado.php');
 ?>
