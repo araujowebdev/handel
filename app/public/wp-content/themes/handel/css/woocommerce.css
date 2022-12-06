@@ -244,3 +244,18 @@
 .woocommerce-page .woocommerce-message .button:hover {
   background: #1188ee;
 }
+
+.woocommerce-orders-table__cell-order-actions a {
+  margin: 5px !important;
+}
+
+/* Digital */
+.woocommerce a.button.alt {
+  font-weight: normal;
+  background-color: #0066bb;
+}
+
+.woocommerce a.button.alt:hover {
+  font-weight: normal;
+  background-color: #1188ee;
+}
